@@ -1,0 +1,1204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-weight: 400;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    
+}
+
+ul, ol{
+    list-style: none; 
+    overflow: hidden;
+    width: 100%;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 50px;
+    background-color: #404041;
+    color: #ffff;
+    text-align: right;
+}
+ul .lang{
+    margin-left: 26%;
+}
+ul .help{
+    padding: 15px 22px 16px 44px;
+}
+ul .sign{
+    padding: 16px 24px 16px 30px;
+}
+.fa-user, 
+.fa-rocketchat, 
+.fa-solid{
+    margin-top: 4%;
+    font-size: 19px;
+}
+ul .cart{
+    padding: 16px 20px 16px 10px;
+    background-color: #3170b7;
+}
+ul .cart:hover{
+    background-color: #4c7db6;
+}
+ul .search{
+    background-color: #ffff;
+    padding: 16px 15px;
+}
+ul .search:hover{
+    background-color: #fff;
+}
+ul li{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 16px 20px;
+    height: 50px;
+}
+ul li:hover{
+    background-color: #5e5f5f;
+}
+ul li, ol li{
+    float:left;
+}
+ol{
+    width: 100%;
+    height: 80px;
+}
+ol li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    padding: 0 12px;
+    padding-top: 19px;
+    font-size: 18.3px;
+    font-weight: 549;
+}
+ol li a:hover{
+    color: #3170b7;
+}
+ol .li{
+    padding-top: 13px;
+}
+.img{
+    margin-left: 13%;
+}
+ .phones{
+    padding: 0px 27px 0px 0px;
+    margin-left: 16.3%;
+}
+.plans{
+    padding: 0px 27px 0px 0px;
+}
+.free{
+    padding: 0px 17px 0px 0px;
+}
+.pay{
+    padding: 0px 19px 0px 0px;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+header{
+    position: relative;
+}
+.header{
+    position: absolute;
+    min-height: 468px;
+    width: 100%;
+    background-color: #60A630;
+}
+.herotext {
+    position: absolute;
+    top: 80px;
+    left: 13%;
+    
+}
+h1{
+    width: 60%;
+    color: #fff;
+    font-size: 75px;
+    font-weight: 770;
+    line-height: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2%;
+}
+h2{
+    font-size: 23px;
+    font-weight: 800;
+}
+.heroimg{
+    position: absolute;
+    top: 35px;
+    left: 50%;
+}
+section #section1{
+    position: relative;
+}
+#section1 .div1{
+    width: 28%;
+    position: absolute;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    top: 507px;
+    left: 10%;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 16px;
+    color: rgb(0, 0, 0);
+    min-height: 450px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 33px 20px;
+}
+#section1 .div1 .a{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+#section1 .div1 .a:hover{
+    text-decoration: underline;
+}
+#section1 .div1 .image{
+    max-width: 100%;
+    height: auto;
+}
+#section1 .div1 .paragraph1{
+    font-size: 15px;
+    font-weight: 550;
+    margin-bottom: 16px;
+}
+#section1 .div1 .paragraph2{
+    font-size: 8px;
+    font-weight: 550;
+    margin-bottom: 10%;
+    line-height: 12px;
+}
+#section1 .div1 #a{
+    color: #4c7db6;
+}
+#section1 .div1 #a:hover{
+    color: #14375f;
+}
+#section1 .div1 .linkbtn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #3170b7;
+    padding: 14px 30%;
+    border-radius: 4px;
+    margin-top: 18px;
+}
+#section1 .div1 .linkbtn:hover{
+    background-color:#2a62a3;
+}
+#section1 .div2{
+    width: 25%;
+    position: absolute;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    top: 507px;
+    left: 40%;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 16px;
+    color: rgb(0, 0, 0);
+    min-height: 450px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 33px 20px;
+}
+#section1 .div2 .a, #section1 .div3 .a{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+#section1 .div2 .a:hover, #section1 .div3 .a:hover{
+    text-decoration: underline;
+}
+#section1 .div2 .image, #section1 .div3 .image{
+    max-width: 100%;
+    height: auto;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+#section1 .div2 .paragraph1{
+    font-size: 15px;
+    font-weight: 550;
+    margin-bottom: 16px;
+}
+#section1 .div2 .paragraph2{
+    font-size: 8px;
+    font-weight: 550;
+    margin-bottom: 10%;
+    line-height: 12px;
+}
+#section1 .div2 #a, #section1 .div3 #a,
+.section10 .sec10text .paragraph2 a{
+    color: #4c7db6;
+}
+#section1 .div2 #a:hover, #section1 .div3 #a:hover,
+.section10 .sec10text .paragraph2 a:hover{
+    color: #14375f;
+}
+#section1 .div2 .linkbtn, #section1 .div3 .linkbtn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #3170b7;
+    padding: 14px 30%;
+    border-radius: 4px;
+}
+#section1 .div2 .linkbtn:hover, #section1 .div3 .linkbtn:hover{
+    background-color:#2a62a3;
+}
+#section1 .div3{
+    width: 25%;
+    position: absolute;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    top: 507px;
+    left: 67%;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 16px;
+    color: rgb(0, 0, 0);
+    min-height: 77.5%;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 33px 20px;
+}
+#section1 .div3 .paragraph1{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    margin-top: 15px;
+}
+#section1 .div3 .paragraph2{
+    font-size: 8px;
+    font-weight: 550;
+    margin-bottom: 40px;
+    line-height: 12px;
+}
+#section2 .shipping, 
+#section2 .annual, 
+#section2 .credit, 
+#section2 .network{
+    position: relative;
+    top: 850px;
+}
+.shipping .img{
+    position: absolute;
+    top: 95px;
+    left: 0;
+
+}
+.shipping .link{
+    position: absolute;
+    top: 105px;
+    left: 225px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#2a62a3;
+    text-decoration: none;
+}
+.shipping .link:hover{
+    text-decoration: underline;
+    color: #054083;
+}
+.annual .img{
+    position: absolute;
+    top: 95px;
+    left: 340px;
+}
+.annual p{
+    position: absolute;
+    top: 105px;
+    left: 562px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+}
+.credit .img{
+    position: absolute;
+    top: 95px;
+    left: 610px;
+}
+.credit p{
+    position: absolute;
+    top: 105px;
+    left: 833px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+}
+.network .img{
+    position: absolute;
+    top: 95px;
+    left: 855px;
+}
+.network a{
+    position: absolute;
+    top: 105px;
+    left: 1075px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#2a62a3;
+    text-decoration: none;
+}
+.network a:hover{
+    text-decoration: underline;
+    color: #054083;
+}
+#span{
+    position: relative;
+}
+#span span{
+    position: absolute;
+    top: 1050px;
+    width: 100%;
+    border-bottom: 1.2px solid #60A630;
+}
+.h3{
+    text-align: center;
+    position: relative;
+    top: 1035px;
+    left: 41%;
+    width: 20%;
+    padding: 0 10px;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #fff;
+    z-index: 3;
+}
+section #section3{
+    position: relative;
+}
+#section3 .div1{
+    position: absolute;
+    top: 1240px;
+    left: 10%;
+    color: black;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    min-height: 215px;
+    width: 135px;
+    background-color: #fff;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 16px;
+    border-radius: 10px;
+}
+#section3 .div1 .paragraph1{
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 1.36364;
+    margin-bottom: 16px;
+}
+#section3 .div1 .paragraph2{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+#section3 .div1 img{
+    max-width: 100%;
+    height: auto;
+}
+#section3 .div2{
+    position: absolute;
+    top: 1240px;
+    left: 21%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 16px;
+    color: black;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    min-height: 215px;
+    width: 310px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#section3 .div2 .paragraph1, 
+#section3 .div3 .paragraph1, 
+#section3 .div4 .paragraph1{
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 790;
+    line-height: 1.36364;
+    margin-bottom: 36px;
+}
+#section3 .div2 .paragraph2, 
+#section3 .div3 .paragraph2, 
+#section3 .div4 .paragraph2{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+#section3 .div2 .paragraph3, 
+#section3 .div3 .paragraph3, 
+#section3 .div4 .paragraph3{
+    font-size: 17px;
+    font-weight: 600;
+}
+b{
+    font-size: 21px;
+    font-weight: 800;
+    color: #60A630;
+}
+#section3 .div3{
+    position: absolute;
+    top: 1240px;
+    left: 45%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 16px;
+    color: black;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    min-height: 215px;
+    width: 310px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#section3 .div4{
+    position: absolute;
+    top: 1240px;
+    left: 69%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 16px;
+    color: black;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    min-height: 215px;
+    width: 310px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#section4{
+    position: relative;
+}
+.section4{
+    position: absolute;
+    top: 1340px;
+    left: 10%;
+    min-height: 145px;
+    width: 1115px;
+    background-color:rgb(243, 246, 248);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 16px;
+    border-radius: 10px;
+}
+#h3{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 28px;
+    margin: 20px 0px 10px;
+    text-align: center;
+}
+.section4 .fiveg img{
+    position: absolute;
+    top: 74px;
+    left: 5%;
+}
+.section4 .fiveg .fast{
+    position: absolute;
+    top: 76px;
+    left: 7.3%;
+    font-size: 15px;
+    line-height: 20px;
+}
+.section4 .talk img{
+    position: absolute;
+    top: 74px;
+    left: 30%;
+}
+.section4 .talk #talk{
+    position: absolute;
+    top: 76px;
+    left: 32.3%;
+    font-size: 15px;
+    line-height: 20px;
+}
+.section4 .speed img{
+    position: absolute;
+    top: 74px;
+    left: 56%;
+}
+.section4 .speed #speed{
+    position: absolute;
+    top: 76px;
+    left: 58.3%;
+    font-size: 15px;
+    line-height: 20px;
+}
+.section4 .smalltext{
+    position: absolute;
+    top: 115px;
+    left: 25%;
+    font-size: 10px;
+    line-height: 14px;
+}
+.section4 .smalltext a, 
+.section4 .fiveg a{
+    color: #4c7db6;
+}
+.section4 .speed a{
+    position: absolute;
+    top: 57px;
+    left: 80%;
+    background-color: #2a62a3;
+    border-radius: 4px;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    min-height: 48px;
+    color: #fff;
+    padding: 16px 16px 0 16px;
+}
+.section4 .speed a:hover, 
+#section5 .sec5text .map:hover{
+    background-color: #054083;
+}
+#section5 {
+    position: relative;
+}
+#section5 img{
+    position: absolute;
+    top: 1520px;
+    left: 10%;
+}
+#section5 .sec5text{
+    position: absolute;
+    top: 1520px;
+    left: 57%;
+    width: 34%;
+}
+#section5 .sec5text h3{
+    font-size: 22px;
+    font-weight: 750;
+    line-height: 1.2;
+    margin-bottom: 9px;
+}
+#section5 .sec5text p{
+font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+small{
+    font-size: 11px;
+}
+#section5 .sec5text .near{
+    max-width: 300px;
+    border: 1px solid #3170b7;
+    color: #3170b7;
+    border-radius: 4px;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    min-height: 48px;
+    padding: 13px 17px 13px 17px;
+}
+#section5 .sec5text .near:hover{
+    border: 1px solid #14375f;
+    color: #14375f;
+}
+#section5 .sec5text .map{
+    max-width: 300px;
+    border: 1px solid #3170b7;
+    background-color: #2a62a3;
+    color: #fff;
+    border-radius: 4px;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    min-height: 48px;
+    margin-left: 6%;
+    padding: 13px 55px 13px 55px;
+}
+.span{
+    position: relative;
+}
+.span span{
+    position: absolute;
+    top: 1795px;
+    width: 100%;
+    border-bottom: 1.2px solid #60A630;
+}
+.h4{
+    text-align: center;
+    position: relative;
+    top: 1780px;
+    left: 42%;
+    width: 20%;
+    padding: 0 10px;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #fff;
+    z-index: 3;
+}
+#section6{
+    position: relative;
+}
+#section6 .titanium{
+    position: absolute;
+    top: 1820px;
+    left: 9%;
+}
+#section6 .titanium .titaniumtext .paragraph1{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.5px;
+    letter-spacing: 1px;
+    margin: 6% 0 4% 0; 
+    text-align-last: left;
+}
+#section6 .titanium .titaniumtext .paragraph2{
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 36ch;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: .3% 0 1% 0;
+    text-align: left;
+}
+#section6 .titanium .titaniumtext .paragraph3{
+    font-size: 9px;
+    line-height: 14px;
+    margin-bottom: 4%;
+    max-width: 70ch;
+    text-align-last: left;
+}
+#section6 .titanium .titaniumtext a, 
+#section6 .line .linetext a, 
+#section6 .upgrade .upgradetext a{
+    color: #3170b7;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-style: 17px;
+}
+#section6 .titanium .titaniumtext a:hover, 
+#section6 .line .linetext a:hover, 
+#section6 .upgrade .upgradetext a:hover{
+    color: #054083;
+}
+#section6 .line{
+    position: absolute;
+    top: 1820px;
+    left: 38%;
+}
+#section6 .line .linetext .paragraph1{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.5px;
+    letter-spacing: .5px;
+    margin: 6% 0 3% 0; 
+    text-align-last: left;
+}
+#section6 .line .linetext .paragraph2{
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 36ch;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: .3% 0 1% 0;
+    text-align: left;
+}
+#section6 .line .linetext .paragraph3{
+    font-size: 9px;
+    line-height: 14px;
+    margin-bottom: 10.8%;
+    max-width: 70ch;
+    text-align-last: left;
+}
+#section6 .upgrade{
+    position: absolute;
+    top: 1820px;
+    left: 68%;
+}
+#section6 .upgrade .upgradetext .paragraph1{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.5px;
+    letter-spacing: .5px;
+    margin: 6% 0 3% 0; 
+    text-align-last: left;
+}
+#section6 .upgrade .upgradetext .paragraph2{
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 38ch;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: .3% 0 1.5% 0;
+    text-align: left;
+}
+#section6 .upgrade .upgradetext .paragraph3{
+    font-size: 9px;
+    line-height: 14px;
+    margin-bottom: 10.8%;
+    max-width: 70ch;
+    text-align-last: left;
+}
+#borderspan{
+    position: relative;
+}
+#borderspan span{
+    position: absolute;
+    top: 2300px;
+    width: 100%;
+    border-bottom: 1.2px solid #60A630;
+}
+#h4{
+    text-align: center;
+    position: relative;
+    top: 2285px;
+    left: 42%;
+    width: 20%;
+    padding: 0 10px;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #fff;
+    z-index: 3;
+}
+#section7{
+    position: relative;
+}
+#section7 .smartprices{
+    position: absolute;
+    top: 2340px;
+    left: 8%;
+    border: 1px solid rgb(225, 223, 225);
+    border-radius: 10px;
+    padding: 25px 25px 40px 25px;
+    text-align: center;
+}
+#section7 .smartprices p{
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+#section7 .smartprices a,
+#section7 .bring a,
+#section7 .cricket a{
+    border: 1px solid #3170b7;
+    color: #4c7db6;
+    border-radius: 4px;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 120px;
+}
+#section7 .smartprices a:hover,
+#section7 .bring a:hover,
+#section7 .cricket a:hover,
+#section9 a:hover{
+    border: 1px solid #14375f;
+    color: #14375f;
+}
+#section7 .bring{
+    position: absolute;
+    top: 2340px;
+    left: 36.3%;
+    border: 1px solid rgb(225, 223, 225);
+    border-radius: 10px;
+    padding: 25px 25px 40px 25px;
+    text-align: center;
+}
+#section7 .bring p{
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+#section7 .cricket{
+    position: absolute;
+    top: 2340px;
+    left: 65.3%;
+    border: 1px solid rgb(225, 223, 225);
+    border-radius: 10px;
+    padding: 25px 25px 40px 25px;
+    text-align: center;
+}
+#section7 .cricket p{
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+#section7 .se{
+    position: absolute;
+    top: 2510px;
+    left: 8%;
+    width: 27%;
+    height: 172px;
+    border: 1px solid rgb(225, 223, 225);
+    border-radius: 10px;
+}
+#section7 .se a{
+    position: relative;
+    bottom: 70px;
+    left: 5%;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    align-items: center;
+    color: #3170B7;
+    text-decoration: none;
+}
+#section7 .se img{
+    position: relative;
+    left: 10%;
+}
+#section7 .moto{
+    position: absolute;
+    top: 2510px;
+    left: 36.3%;
+    width: 27.5%;
+    height: 172px;
+    border: 1px solid rgb(225, 223, 225);
+    border-radius: 10px;
+}
+#section7 .moto a{
+    position: relative;
+    bottom: 70px;
+    left: 3%;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    align-items: center;
+    color: #3170B7;
+    text-decoration: none;
+}
+#section7 .moto img{
+    position: relative;
+    left: 7%;
+}
+#section7 .galaxy{
+    position: absolute;
+    top: 2510px;
+    left: 65.3%;
+    width: 28%;
+    height: 172px;
+    border: 1px solid rgb(225, 223, 225);
+    border-radius: 10px;
+}
+#section7 .galaxy a{
+    position: relative;
+    bottom: 70px;
+    left: 3%;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    align-items: center;
+    color: #3170B7;
+    text-decoration: none;
+}
+#section7 .galaxy img{
+    position: relative;
+    left: 5.2%;
+}
+#section7 .se a:hover,
+#section7 .moto a:hover,
+#section7 .galaxy a:hover{
+    color: #14375f;
+    text-decoration: underline;
+}
+.affordable .img{
+    position: absolute;
+    top: 2740px;
+    left: 0;
+}
+.affordable p{
+    position: absolute;
+    top: 2750px;
+    left: 17%;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+.overage .img{
+    position: absolute;
+    top: 2740px;
+    left: 22%;
+}
+.overage p{
+    position: absolute;
+    top: 2750px;
+    left: 39%;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+.hidden .img{
+    position: absolute;
+    top: 2740px;
+    left: 45%;
+}
+.hidden p{
+    position: absolute;
+    top: 2750px;
+    left: 62%;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+.stress .img{
+    position: absolute;
+    top: 2740px;
+    left: 64%;
+}
+.stress p{
+    position: absolute;
+    top: 2750px;
+    left: 81%;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+#classspan{
+    position: relative;
+}
+#classspan span{
+    position: absolute;
+    top: 2875px;
+    width: 100%;
+    border-bottom: 1.2px solid #60A630;
+}
+#nation{
+    text-align: center;
+    position: relative;
+    top: 2860px;
+    left: 37%;
+    width: 28%;
+    padding: 0 2px;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #fff;
+    z-index: 3;
+}
+#section8{
+    position: relative;
+}
+#section8 .daisy{
+    position: absolute;
+    top: 2900px;
+    left: 8%;
+}
+#section8 .daisy .daisytext,
+#section8 .paul .paultext{
+    text-align: center;
+    margin-top: 5%;
+}
+#section8 .daisy .daisytext .paragraph1,
+#section8 .paul .paultext .paragraph1{
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-size: 15.3px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 15%;
+    max-width: 40ch;
+}
+#section8 .daisy .daisytext .paragraph2,
+#section8 .paul .paultext .paragraph2,
+#section8 .ken .kentext .paragraph2{
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 3%;
+}
+#section8 .daisy .daisytext .paragraph3,
+#section8 .paul .paultext .paragraph3,
+#section8 .ken .kentext .paragraph3{
+font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    margin: 0px;
+}
+#section8 .paul{
+    position: absolute;
+    top: 2900px;
+    left: 37%;
+}
+#section8 .ken{
+    position: absolute;
+    top: 0;
+    left: 110%;
+    text-align: center;
+}
+#section8 .ken .kentext{
+    text-align: center;
+    margin-top: 9%;
+}
+#section8 .ken .kentext .paragraph1{
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-size: 15.3px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 18%;
+}
+#section9{
+    position: relative;
+    text-align: center;
+    top: 3350px;
+    left: 0;
+}
+#section9 p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: .5px;
+    margin-bottom: 3%;
+}
+#section9 a{
+    border: 1px solid #3170b7;
+    color: #4c7db6;
+    border-radius: 4px;
+    font-family: "Simply Cricket VF", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 80px;
+}
+#section10{
+    position: relative;
+}
+.section10{
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    top: 3363px;
+    background-color: rgb(243, 246, 248);
+}
+.section10 .sec10text{
+    position: absolute;
+    top: 40px;
+    left: 7%;
+    text-align: center;
+}
+.section10 .sec10text .paragraph1{
+    font-size: 23px;
+    font-weight: 600;
+}
+.section10 .sec10text .paragraph2{
+    font-size: 9px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.section10 form{
+    position: absolute;
+    top:45px;
+    left: 30%;
+    width: 100%;
+}
+input{
+    text-align: left;
+    padding: 13px 300px 12px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-right: 5%;
+}
+button{
+    background-color:#3170B7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 70px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #054083;
+}
+#footer{
+    position: relative;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    top: 3493px;
+    background-color: #404041;
+}
+table{
+    max-width: 90%;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.last{
+    padding-left: 12%;
+}
+.first{
+    padding-right: 6%;
+}
+th{
+    color: #fff;
+    font-size: 23px;
+}
+td a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+td a:hover{
+    text-decoration: underline;
+}
+th, td{
+    padding-top: .8%;
+}
+.foot h5{
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+.foot #fontawesome{
+    position: absolute;
+    top: 67px;
+    left: 7%;
+    font-size: 42px;
+}
+.foot p{
+    position: absolute;
+    top: 500px;
+    left: 5%;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+}
